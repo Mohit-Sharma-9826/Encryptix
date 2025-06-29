@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohit Sharma-Portfolio</title>
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <ul>
+                <img id="logo" src="img/Logo.png" width="100px" alt="">
+                <li onclick="check(id)" id="about">About</li>
+                <li onclick="check(id)" id="highlights">Highlights</li>
+                <li onclick="check(id)" id="academics">Academics</li>
+                <li onclick="check(id)" id="project">Projects</li>
+                <li onclick="check(id)" id="research">Research</li>
+                <li onclick="check(id)" id="contact">Contact Me</li>
+            </ul>
+        </nav>
+        <div class="content">
+            <section class="info">
+                <h3>HELLO, I AM</h3>
+                <h1>MOHIT SHARMA</h1>
+                <p>#AIEnthusiast | Coder | Web Developer</p>
+            </section>
+            <section class="photo">
+                <img src="img/pic.jpg" alt="Mohit Sharma">
+            </section>
+        </div>
+    </div>
+
+    <div class="about active">
+        <h1>About Me</h1>
+        <div class="boxContainer">
+            <div class="box">
+                <p>💻</p>
+                <p>Web Developer</p>
+            </div>
+            <div class="box">
+                <img src="img/c.webp" alt="C">
+                <p>C Programmer</p>
+            </div>
+            <div class="box">
+                <p>🤖</p>
+                <p>AI Enthusiast</p>
+            </div>
+            <div class="box">
+                <p>🧠</p>
+                <p>Excited Learner</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="academics active">
+        <h1>Academics/Certificates</h1>
+        <div class="para">
+            <p>🎓 Pursuing B.Tech in CSE with specialization in AI & ML</p>
+            <p>🏫 Studying at Dronacharya College of Engineering, Farrukhnagar</p>
+            <p>📚 Strong foundation in Python, Web development, C programming and Git</p>
+        </div>
+        <div class="certifiedContainer">
+            <a href="http://127.0.0.1:5500/img/certificates/Alison.png" ><img class="certificate" src="img/certificates/Alison.png" alt="Certificate"></a>
+            <a href="http://127.0.0.1:5500/img/certificates/Udemy.png"><img class="certificate" src="img/certificates/Udemy.png" alt="Certificate"></a>
+        </div>
+        <div id="resume-block">🗃️ View My Resume</div>
+        <div id="resume-container">
+            <iframe src="Mohit_Sharma_Resume.pdf"></iframe>
+            <br>
+            <a href="Mohit_Sharma_Resume.pdf" download class="download-btn">⬇️ Download Resume</a>
+        </div>
+    </div>
+
+    <div class="project active">
+        <h1>Projects</h1>
+        <div class="cardContainer">
+            <a class="card" href="https://www.spotyclone.com/" target="_blank">
+                <img src="img/spotify.png" alt="Spotify" >
+                <br>
+                Spotify Clone
+            </a>
+        </div>
+    </div>
+
+    <div class="highlights inactive exception">
+        <h1>Highlights</h1>
+    </div>
+
+    <div class="research inactive exception">
+        <h1>Research</h1>
+    </div>
+
+    <div class="contact active">
+        <h1>Contact Me</h1>
+        <div class="options">
+            <a href="mailto:mohit20064321@gmail.com" class="opt">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                    <path d="M22 12.5001C22 12.0087 21.9947 11.0172 21.9842 10.5244C21.9189 7.45886 21.8862 5.92609 20.7551 4.79066C19.6239 3.65523 18.0497 3.61568 14.9012 3.53657C12.9607 3.48781 11.0393 3.48781 9.09882 3.53656C5.95033 3.61566 4.37608 3.65521 3.24495 4.79065C2.11382 5.92608 2.08114 7.45885 2.01576 10.5244C1.99474 11.5101 1.99475 12.4899 2.01577 13.4756C2.08114 16.5412 2.11383 18.0739 3.24496 19.2094C4.37608 20.3448 5.95033 20.3843 9.09883 20.4634C9.90159 20.4836 10.7011 20.4954 11.5 20.4989" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M2 6L8.91302 9.92462C11.4387 11.3585 12.5613 11.3585 15.087 9.92462L22 6" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                    <path d="M22 17.5L14 17.5M22 17.5C22 16.7998 20.0057 15.4915 19.5 15M22 17.5C22 18.2002 20.0057 19.5085 19.5 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <p>Email</p>
+            </a>
+            <a href="https://www.linkedin.com/in/mohit-sharma-63564a32b/" class="opt" target="_blank">
+                <img src="img/linkedin.png" alt="linkedin">
+                <p>Linkedin</p>
+            </a>
+            <a href="https://github.com/Mohit-Sharma-9826" class="opt" target="_blank">
+                <img src="img/github.png" alt="linkedin">
+                <p>Github</p>
+            </a>
+        </div>
+    </div>
+
+    <footer class="foot">&copy; Copyright | All right reserved</footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

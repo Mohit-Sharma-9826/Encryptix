@@ -1,0 +1,10 @@
+/* <---------- Utility Classes ----------> */
+.active{
+    display: block;
+}
+.flexActive{
+    display: flex;
+}
+.inactive{
+    display: none;
+}

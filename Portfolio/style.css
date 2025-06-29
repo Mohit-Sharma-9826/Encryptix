@@ -1,0 +1,316 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* <---------- Container ----------> */
+.container{
+    background: linear-gradient(90deg, #0057ff, #00c2ff);
+    height: 51vh;
+    padding: 30px;
+    transition: all 0.8s ease;
+}
+.navbar ul{
+    background: linear-gradient(90deg, #0057ff, #00c2ff);
+    border-radius: 15px;
+    display: flex;
+    gap: 1.2rem;
+    list-style: none;
+    font-size: 1rem;
+    color: white;
+    justify-content: end;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.navbar ul li{
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.navbar ul li:hover{
+    background-color: #0794ed;
+    cursor: pointer;
+}
+#logo{
+    position: absolute;
+    left: 50px;
+    top: 25px;
+    border-radius: 10px;
+    display: none;
+}
+.content{
+    display: flex;
+    height: 85%;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    transition: all 0.8s ease;
+
+}
+.info h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    opacity: 0.8;
+    transition: all 0.8s ease;
+
+}
+.info h1{
+    font-size: 3rem;
+    margin: 5px 0px;
+}
+.info p{
+    font-size: 1rem;
+    opacity: 0.9;
+}
+.photo img{
+    width: 240px;
+    max-width: 400px;
+    border-radius: 20px;
+    /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); */
+    filter: drop-shadow(5px 5px 12px #3f3f3f);
+    transition: 0.5s ease-out;
+    transition: all 0.8s ease;
+
+}
+.photo img:hover{
+    width: 250px;
+    cursor: pointer;
+}
+
+/* <---------- About ----------> */
+.about{
+    /* border: 2px solid red; */
+    margin: 30px auto 0px auto;
+    text-align: center;
+    width: 80vw;
+    background-color: rgb(237, 235, 235);
+    border-radius: 15px;
+    padding: 1rem;
+}
+.about h1{
+    margin-bottom: 10px;
+}
+.boxContainer{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+.box{
+    width: 200px;
+    height: 150px;
+    box-shadow: 0px 1px 6px rgba(111, 110, 110, 0.327);
+    border-radius: 15px;
+    padding: 24px;
+    font-size: 1.2rem;
+    align-content: center;
+    transition: 0.8s ease;
+    flex-wrap: wrap;
+}
+.box:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+.box img{
+    width: 37px;
+}
+
+/* <---------- Acadmics ----------> */
+.academics{
+    margin: 30px auto 0px auto;
+    text-align: center;
+    width: 80vw;
+    background-color: rgb(237, 235, 235);
+    border-radius: 15px;
+    padding: 1rem;
+}
+.academics h1{
+    margin-bottom: 10px;
+}
+.certifiedContainer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+.certificate{
+    width: 200px;
+    height: 150px;
+    box-shadow: 0px 1px 6px rgba(111, 110, 110, 0.327);
+    border-radius: 15px;
+    padding: 5px;
+    align-content: center;
+    transition: 0.8s ease;
+}
+.certificate:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+.para{
+    margin: auto;
+    padding: 5px;
+    width: fit-content;
+    padding-left: 3rem;
+}
+.para p{
+    width: fit-content;
+    margin: 2px 0px;
+}
+#resume-container {
+      display: none;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+#resume-block {
+    width: 200px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: #f3f3f3;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    text-align: center;
+}
+iframe {
+    width: 100%;
+    height: 500px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.download-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* <---------- Projects ----------> */
+.project{
+    margin: 30px auto 0px auto;
+    text-align: center;
+    width: 80vw;
+    background-color: rgb(237, 235, 235);
+    border-radius: 15px;
+    padding: 1rem;
+}
+.project h1{
+    margin-bottom: 10px;
+}
+.cardContainer{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+.card{
+    width: 200px;
+    height: 150px;
+    box-shadow: 0px 1px 6px rgba(111, 110, 110, 0.327);
+    border-radius: 15px;
+    padding: 24px;
+    font-size: 1.2rem;
+    align-content: center;
+    transition: 0.8s ease;
+    color: black;
+    text-decoration: none;
+}
+
+.card:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+.card img{
+    width: 37px;
+}
+
+/* <---------- Contact ----------> */
+.contact{
+    /* border: 2px solid red; */
+    margin: 30px auto 20px auto;
+    text-align: center;
+    width: 80vw;
+    background-color: rgb(237, 235, 235);
+    border-radius: 15px;
+    padding: 1rem;
+}
+.contact h1{
+    margin-bottom: 10px;
+}
+.options{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+.opt:first-child{
+    color: red;
+}
+.opt:nth-child(2) img{
+    width: 60px;
+}
+.opt{
+    width: 200px;
+    height: 150px;
+    box-shadow: 0px 1px 6px rgba(111, 110, 110, 0.327);
+    border-radius: 15px;
+    padding: 24px;
+    font-size: 1.2rem;
+    align-content: center;
+    transition: 0.8s ease;
+    text-decoration: none;
+    color: rgb(2, 2, 44);
+}
+.opt:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+.opt img{
+    width: 37px;
+}
+
+/* <---------- highlight ----------> */
+.highlights{
+    /* border: 2px solid red; */
+    margin: 30px auto 20px auto;
+    text-align: center;
+    width: 80vw;
+    background-color: rgb(237, 235, 235);
+    border-radius: 15px;
+    padding: 1rem;
+}
+.highlights h1{
+    margin-bottom: 10px;
+}
+
+/* <---------- research ----------> */
+.research{
+    /* border: 2px solid red; */
+    margin: 30px auto 20px auto;
+    text-align: center;
+    width: 80vw;
+    background-color: rgb(237, 235, 235);
+    border-radius: 15px;
+    padding: 1rem;
+}
+.research h1{
+    margin-bottom: 10px;
+}
+
+/* <---------- Footer ----------> */
+.foot{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    height: 2rem;
+}
